@@ -30,10 +30,10 @@ idade = 22 - idade da pessoa que retornará, nesse caso: '22'
 #Classes Aplicadas: (nome e idade)
 """
 
-nome = "Ricardo"  # parâmetro *aplicado*
-idade = 22  # parâmetro *aplicado*
-peso = 45.77  # parâmetro *aplicado*
-sexo = "Masculino"  # parâmetro *aplicado*
+nome = "Ricardo"  # parâmetro
+idade = 22  # parâmetro
+peso = 45.77  # parâmetro
+sexo = "Masculino"  # parâmetro
 
 """
 Exemplo: 'Antigo' print("Olá, Meu nome é", nome,"Minha idade é", idade,)
@@ -84,20 +84,24 @@ parte_inteira = int(Ex_Float)
 
 print(f"O valor de Ex_Float é {Ex_Float}\nA parte inteira de Ex_Float é {parte_inteira}")
 """
+
 # <-- Variantes -->
 
 # Código retornará 'Ex_Float' como Float
 """
 print(f"Ex_Float antes valia : {Ex_Float}\n E seu tipo é {type(Ex_Float)}")
 """
+
 # Código de variável que retorna apenas a parte inteira de 'pi'
 """
 Ex_Float = int(Ex_Float)
 """
+
 # Código retornará 'pi' como Inteiro *Código 'pi = int (pi)' aplicado*
 """
 print(f"Agora Ex_Float vale:{Ex_Float}\nE seu tipo é {type(Ex_Float)}")
 """
+
 # Código passará a retornar 'pi' como uma string
 """
 Ex_Float = str(Ex_Float)""
