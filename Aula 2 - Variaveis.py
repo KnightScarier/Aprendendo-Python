@@ -30,17 +30,17 @@ idade = 22 - idade da pessoa que retornará, nesse caso: '22'
 #Classes Aplicadas: (nome e idade)
 """
 
-nome = "Ricardo"
-idade = 22
-peso = 45.77
-sexo = "Masculino"
+nome = "Ricardo"  # parâmetro *aplicado*
+idade = 22  # parâmetro *aplicado*
+peso = 45.77  # parâmetro *aplicado*
+sexo = "Masculino"  # parâmetro *aplicado*
 
 """
 Exemplo: 'Antigo' print("Olá, Meu nome é", nome,"Minha idade é", idade,)
 
 Exemplo1: 'Mais Recente' print("Olá, Meu nome é {}\nEu tenho {} Anos".format (nome,idade))
 
-Exemplo2: 'Moderno' print(f"Olá, Meu nome é {nome}\nEu tenho {idade} Anos,{peso}\nquilos e meu sexo é {sexo}")
+Exemplo2: 'Atual' print(f"Olá, Meu nome é {nome}\nEu tenho {idade} Anos,{peso}\nquilos e meu sexo é {sexo}")
 """
 
 # <-- Exemplo com números -->
