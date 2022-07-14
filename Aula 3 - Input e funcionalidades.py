@@ -38,7 +38,7 @@ print(f"Meu nome é {nome}\nMinha idade é {idade}\nMeu peso é {peso}kg")
 # Por que utilizar dessa maneira? E se não especificarmos as variáveis?
 """
 
-##Obs: Para que não haja erros de formatação, como no exemplo abaixo:
+# ##Obs: Para que não haja erros de formatação, como no exemplo abaixo:
 
 
 # Observe que o 'input' não está especificando qual a variável (str,int,bool ou float) do dado inserido
@@ -81,4 +81,30 @@ inteiro = 10
 
 print(type(string))
 print(type(inteiro))
+"""
+
+# Outro coisa importante de ressaltar é que strings e outras variáveis não podem ser concatenados
+# Exemplo de parâmetros str
+"""
+string = "10"  # parâmetros str
+string = int(string)   # Aqui, este código está transformando 'string' em um inteiro.
+
+print(string + "10")   # ocorre um erro, pois está tentando somar 'string' que passou a ser um 'int' com uma 'str'
+# ocorre um erro, pois está tentando somar 'string' que passou a ser um 'int' com uma 'str'
+"""
+
+# Podendo ser corrigido desta maneira (Inteiros):
+
+"""
+string = "10"  # parâmetros str
+string = int(string)   # Aqui, este código está transformando 'string' em um inteiro.
+
+print(string + 10)  # Ao remover as aspas, o "10" passará a ser um inteiro, então retornará o resultado correto
+"""
+
+# Podendo ser corrigido desta maneira (Strings):
+"""
+string = "10"  # parâmetros str
+
+print(string + "10")  # Aqui, passa a somar 2 variáveis string, portanto retornará '1010' corretamente
 """
